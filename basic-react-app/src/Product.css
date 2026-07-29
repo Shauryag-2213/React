@@ -2,5 +2,9 @@
     border: 1px solid white;
     border-radius: 10px;
     margin-bottom: 15px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 0 15px;    
+    width: 65%;
+    align-items: center;
+    margin: 50px auto;
+    
 }
