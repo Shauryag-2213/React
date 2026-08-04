@@ -1,12 +1,18 @@
 import Product from './Product.jsx'
-
-function ProductTab() {
-    let options=["Hi-Tech","Durable","Handy"];
-    
+function ProductTab() {    
+    let newStyles = {
+        display : "flex",
+        flexWrap : "wrap",
+        justifyContent : "center",
+        alignItems : "center",
+        gap: "20px",
+    }
     return(
-        <div>
-            <Product title = "Phone" price = "40,000" features = {options} />
-            <Product title = "Tab" price = "50,000"/>
+        <div style={newStyles}>
+            <Product title = "Product 1" description= "Description 1" idx = {0}/>
+            <Product title = "Product 2" description= "Description 2" idx = {1}/>
+            <Product title = "Product 3" description= "Description 3" idx = {2}/>
+            <Product title = "Product 4" description= "Description 4" idx = {3}/>
         </div>
     );
 }

@@ -1,10 +1,10 @@
 import './App.css'
+import Product from './Product.jsx';
 import ProductTab from './ProductTab.jsx'
-import Activity from './Activity.jsx';
 function App() {
  return(
   <>
-  <Activity userName="Shaurya" textColor ="white"/>
+  <ProductTab/>
   </>
  );
 }
