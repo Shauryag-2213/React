@@ -1,4 +1,4 @@
-export default function activity({userName, textColor}){
+export default function Activity({userName, textColor}){
     let styles = {color : textColor}
     return(
         <div>
